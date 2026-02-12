@@ -16,59 +16,73 @@ My work focuses on:
 
 I build production-style projects that simulate enterprise data environments and demonstrate real-world problem solving.
 
-## 🛠️ Skills
+## 🛠️ Professional Skill Set
 
-### 💻 Languages
+---
+
+### 💻 Programming & Query Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=databricks&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
+![NoSQL](https://img.shields.io/badge/NoSQL-4DB33D?style=for-the-badge)
 
 ---
 
-### 📊 Data Engineering & Analytics
+### ☁️ Cloud & Big Data Platforms
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge)
+![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge)
+
+---
+
+### 🏗️ Data Engineering & Architecture
 ![ETL](https://img.shields.io/badge/ETL-Pipelines-blue?style=for-the-badge)
-![Data Warehousing](https://img.shields.io/badge/Data-Warehousing-purple?style=for-the-badge)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-FDEE21?style=for-the-badge&logo=apache-spark&logoColor=black)
+![ELT](https://img.shields.io/badge/ELT-Workflows-purple?style=for-the-badge)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow)
+![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=for-the-badge&logo=apache-spark&logoColor=black)
+![Data Warehousing](https://img.shields.io/badge/Data-Warehousing-darkblue?style=for-the-badge)
+![Data Lakehouse](https://img.shields.io/badge/Data-Lakehouse-teal?style=for-the-badge)
 
 ---
 
-### ☁️ Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-
----
-
-### 🤖 Machine Learning
-![Scikit Learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
-
----
-
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql)
-
----
-
-### 📈 Visualization & BI
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
+### 📊 Data Analytics & Visualization
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
+![EDA](https://img.shields.io/badge/Exploratory-Data-Analysis-blue?style=for-the-badge)
+![Data Cleaning](https://img.shields.io/badge/Data-Cleaning-orange?style=for-the-badge)
+![Data Wrangling](https://img.shields.io/badge/Data-Wrangling-purple?style=for-the-badge)
 
 ---
 
-### 🛠️ Tools
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+### 🤖 Machine Learning & Statistical Modeling
+![Linear Regression](https://img.shields.io/badge/Linear-Regression-green?style=for-the-badge)
+![Logistic Regression](https://img.shields.io/badge/Logistic-Regression-blue?style=for-the-badge)
+![SVM](https://img.shields.io/badge/Support-Vector-Machines-red?style=for-the-badge)
+![Decision Trees](https://img.shields.io/badge/Decision-Trees-darkgreen?style=for-the-badge)
+![KMeans](https://img.shields.io/badge/K--Means-Clustering-orange?style=for-the-badge)
+![Supervised Learning](https://img.shields.io/badge/Supervised-Learning-purple?style=for-the-badge)
+![Unsupervised Learning](https://img.shields.io/badge/Unsupervised-Learning-blue?style=for-the-badge)
+
+---
+
+### 📚 Data Science Libraries
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge)
+![Scikit Learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn)
+
+---
+
+### ⚙️ DevOps, Tools & Enterprise Systems
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code)
+![Oracle EBS](https://img.shields.io/badge/Oracle-EBS-red?style=for-the-badge)
 
-
-
-Machine Learning:
-Scikit-learn • Statistical Analysis
 
 ⭐ Featured Projects
 🏆 E-Commerce Data Engineering Platform
