@@ -50,7 +50,6 @@ I build production-style projects that simulate enterprise data environments and
 ### 📊 Data Analytics & Visualization
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
-![EDA](https://img.shields.io/badge/Exploratory-Data-Analysis-blue?style=for-the-badge)
 ![Data Cleaning](https://img.shields.io/badge/Data-Cleaning-orange?style=for-the-badge)
 ![Data Wrangling](https://img.shields.io/badge/Data-Wrangling-purple?style=for-the-badge)
 
@@ -59,7 +58,6 @@ I build production-style projects that simulate enterprise data environments and
 ### 🤖 Machine Learning & Statistical Modeling
 ![Linear Regression](https://img.shields.io/badge/Linear-Regression-green?style=for-the-badge)
 ![Logistic Regression](https://img.shields.io/badge/Logistic-Regression-blue?style=for-the-badge)
-![SVM](https://img.shields.io/badge/Support-Vector-Machines-red?style=for-the-badge)
 ![Decision Trees](https://img.shields.io/badge/Decision-Trees-darkgreen?style=for-the-badge)
 ![KMeans](https://img.shields.io/badge/K--Means-Clustering-orange?style=for-the-badge)
 ![Supervised Learning](https://img.shields.io/badge/Supervised-Learning-purple?style=for-the-badge)
