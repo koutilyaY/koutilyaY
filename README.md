@@ -17,6 +17,50 @@ M.S. Computer Science · University of South Florida · May 2026
 
 ---
 
+## 🛠 Technical Skills
+
+**Languages**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Scala](https://img.shields.io/badge/-Scala-DC322F?style=flat-square&logo=scala&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**AI / ML**
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/-RAG-6E40C9?style=flat-square)
+![XGBoost](https://img.shields.io/badge/-XGBoost-00599C?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Feast](https://img.shields.io/badge/-Feast-1A1A1A?style=flat-square)
+![Pinecone](https://img.shields.io/badge/-Pinecone-000000?style=flat-square)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+**Data Engineering**
+![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/-Delta%20Lake-00ADD4?style=flat-square)
+![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+
+**Cloud & Infrastructure**
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+**BI / Visualization**
+![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+---
+
 ## Selected work
 
 ### 🧠 FinSight AI — Multi-agent financial intelligence
@@ -37,22 +81,10 @@ Kafka → PySpark Structured Streaming → Delta Lake (ACID) with Grafana live m
 
 ## Impact at prior roles
 
-**Visa** · Data Engineer · *Oct 2024 – Sep 2025*
-Built streaming pipelines processing **[X]M events/day**, reduced feature-generation latency by **[Y]%**, and productionized **[N]** data products used by fraud and risk teams.
-
 **Cognizant** · Data Engineer · *Sep 2021 – Aug 2024*
 Migrated **[N]** legacy ETL jobs to Databricks, eliminating **[X] hrs/week** of manual reconciliation and cutting compute spend by **$[Y]/mo**.
 
 **AWS Certified Data Engineer — Associate** · 2025
-
----
-
-## Stack
-
-**AI / ML** · PyTorch · Hugging Face · LangGraph · LangChain · RAG · XGBoost · MLflow · Feast
-**Data** · PySpark · Kafka · Delta Lake · Airflow · dbt · Snowflake · Databricks
-**Cloud & Infra** · AWS · Terraform · Docker · Kubernetes
-**Languages** · Python · SQL · Scala
 
 ---
 
