@@ -3,7 +3,7 @@
 **Data & AI Engineer** — shipping production ML and agentic data systems.
 
 M.S. Computer Science · University of South Florida · May 2026
-3 yrs  Cognizant · AWS Certified Data Engineer — Associate
+3 yrs @ Cognizant · AWS Certified Data Engineer — Associate
 
 ---
 
@@ -81,16 +81,15 @@ Kafka → PySpark Structured Streaming → Delta Lake (ACID) with Grafana live m
 
 ## Impact at prior roles
 
-**Cognizant** · Data Engineer · *Sep 2021 – Aug 2024*
-Migrated **[N]** legacy ETL jobs to Databricks, eliminating **[X] hrs/week** of manual reconciliation and cutting compute spend by **$[Y]/mo**.
+### Cognizant · Data Engineer
+*Sep 2021 – Aug 2024*
+- Migrated **[N]** legacy ETL jobs to Databricks, cutting compute spend by **$[Y]/mo**
+- Eliminated **[X] hrs/week** of manual reconciliation through automated data-quality checks
+- Owned **[N]** client-facing pipelines in Airflow + AWS for a Fortune-500 retail account
 
+### Certifications
 **AWS Certified Data Engineer — Associate** · 2025
 
 ---
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=koutilyaY&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" height="160" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koutilyaY&layout=compact&hide_border=true&theme=tokyonight&langs_count=6" height="160" alt="Top Languages"/>
-
-</div>
+<p align="center"><sub>Open to opportunities — feel free to reach out.</sub></p>
