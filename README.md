@@ -1,88 +1,64 @@
-👋 Hi, I'm Koutilya Yenumula
+# Koutilya Yenumula
 
-Data Analyst | Data Engineer | Data Scientist
-Building scalable, real-world data platforms using cloud, big data, and machine learning technologies.
+**Data & AI Engineer** — shipping production ML and agentic data systems.
 
-🚀 About Me
-
-I specialize in designing end-to-end data solutions that transform raw, high-volume data into actionable business intelligence.
-
-My work focuses on:
-
-• Cloud Data Engineering & ETL Pipelines
-• Real-Time Data Processing Systems
-• Business Intelligence & Data Visualization
-• Machine Learning & Predictive Analytics
-
-I build production-style projects that simulate enterprise data environments and demonstrate real-world problem solving.
-
-## 🛠️ Professional Skill Set
+M.S. Computer Science · University of South Florida · May 2026
+3 yrs  Cognizant · AWS Certified Data Engineer — Associate
 
 ---
 
-### 💻 Programming & Query Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge)
-![NoSQL](https://img.shields.io/badge/NoSQL-4DB33D?style=for-the-badge)
+## ⚡ Currently
+
+- Building **[FinSight AI](#)** — multi-agent financial intelligence platform (Kafka · Delta Lake · LangGraph · RAG)
+- Building **[DocuSense](#)** — contract intelligence with a LangGraph risk-flagging agent
+- **Open to full-time AI Engineer / Data Engineer roles** · US · starting **Summer 2026**
+
+📄 [Resume](#) · 💼 [LinkedIn](https://linkedin.com/in/koutilya716-yenumula-b675911b1) · ✉️ koutilyayenumula@gmail.com
 
 ---
 
-### ☁️ Cloud & Big Data Platforms
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge)
-![Snowflake](https://img.shields.io/badge/Snowflake-56B9EB?style=for-the-badge)
+## Selected work
+
+### 🧠 FinSight AI — Multi-agent financial intelligence
+Real-time market data → LangGraph agents orchestrate retrieval, scoring, and narrative generation → investor-grade insights served via FastAPI. End-to-end MLOps with Feast, MLflow, and Terraform-provisioned infra.
+`Kafka` · `PySpark` · `Delta Lake` · `LangGraph` · `Pinecone` · `XGBoost` · `FastAPI` · `MLflow` · `Terraform`
+
+### 📄 DocuSense — Contract intelligence platform
+Semantic chunking + RAG + a LangGraph agent that surfaces obligations, exceptions, and risk clauses across long-form legal documents. Airflow DAGs orchestrate ingestion; Streamlit for the analyst UI.
+`LangGraph` · `RAG` · `Airflow` · `Streamlit` · `AWS`
+
+### 🔍 Real-Time Fraud Detection
+Kafka → PySpark Structured Streaming → Delta Lake (ACID) with Grafana live monitoring. Sub-2s end-to-end detection latency on synthetic card-transaction streams.
+`Kafka` · `PySpark` · `Delta Lake` · `Grafana`
+
+➡️ [See all projects](https://github.com/koutilyaY?tab=repositories)
 
 ---
 
-### 🏗️ Data Engineering & Architecture
-![ETL](https://img.shields.io/badge/ETL-Pipelines-blue?style=for-the-badge)
-![ELT](https://img.shields.io/badge/ELT-Workflows-purple?style=for-the-badge)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow)
-![PySpark](https://img.shields.io/badge/PySpark-FDEE21?style=for-the-badge&logo=apache-spark&logoColor=black)
-![Data Warehousing](https://img.shields.io/badge/Data-Warehousing-darkblue?style=for-the-badge)
-![Data Lakehouse](https://img.shields.io/badge/Data-Lakehouse-teal?style=for-the-badge)
+## Impact at prior roles
+
+**Visa** · Data Engineer · *Oct 2024 – Sep 2025*
+Built streaming pipelines processing **[X]M events/day**, reduced feature-generation latency by **[Y]%**, and productionized **[N]** data products used by fraud and risk teams.
+
+**Cognizant** · Data Engineer · *Sep 2021 – Aug 2024*
+Migrated **[N]** legacy ETL jobs to Databricks, eliminating **[X] hrs/week** of manual reconciliation and cutting compute spend by **$[Y]/mo**.
+
+**AWS Certified Data Engineer — Associate** · 2025
 
 ---
 
-### 📊 Data Analytics & Visualization
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
-![Data Cleaning](https://img.shields.io/badge/Data-Cleaning-orange?style=for-the-badge)
-![Data Wrangling](https://img.shields.io/badge/Data-Wrangling-purple?style=for-the-badge)
+## Stack
+
+**AI / ML** · PyTorch · Hugging Face · LangGraph · LangChain · RAG · XGBoost · MLflow · Feast
+**Data** · PySpark · Kafka · Delta Lake · Airflow · dbt · Snowflake · Databricks
+**Cloud & Infra** · AWS · Terraform · Docker · Kubernetes
+**Languages** · Python · SQL · Scala
 
 ---
 
-### 🤖 Machine Learning & Statistical Modeling
-![Linear Regression](https://img.shields.io/badge/Linear-Regression-green?style=for-the-badge)
-![Logistic Regression](https://img.shields.io/badge/Logistic-Regression-blue?style=for-the-badge)
-![Decision Trees](https://img.shields.io/badge/Decision-Trees-darkgreen?style=for-the-badge)
-![KMeans](https://img.shields.io/badge/K--Means-Clustering-orange?style=for-the-badge)
-![Supervised Learning](https://img.shields.io/badge/Supervised-Learning-purple?style=for-the-badge)
-![Unsupervised Learning](https://img.shields.io/badge/Unsupervised-Learning-blue?style=for-the-badge)
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=koutilyaY&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" height="160" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=koutilyaY&layout=compact&hide_border=true&theme=tokyonight&langs_count=6" height="160" alt="Top Languages"/>
 
-### 📚 Data Science Libraries
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge)
-![Scikit Learn](https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn)
-
----
-
-### ⚙️ DevOps, Tools & Enterprise Systems
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code)
-![Oracle EBS](https://img.shields.io/badge/Oracle-EBS-red?style=for-the-badge)
-
-
-📫 Let's Connect
-
-LinkedIn: www.linkedin.com/in/koutilya716-yenumula-b675911b1
-Email: koutilyayenumula@gmail.com
+</div>
