@@ -13,7 +13,7 @@ M.S. Computer Science · University of South Florida · May 2026
 - Building **[DocuSense](#)** — contract intelligence with a LangGraph risk-flagging agent
 - **Open to full-time AI Engineer / Data Engineer roles** · US · starting **Summer 2026**
 
-📄 [Resume](#) · 💼 [LinkedIn](https://linkedin.com/in/koutilya716-yenumula-b675911b1) · ✉️ koutilyayenumula@gmail.com
+📄 [Resume](#) · 💼 [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula/) · ✉️ koutilyayenumula@gmail.com
 
 ---
 
