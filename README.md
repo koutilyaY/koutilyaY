@@ -9,9 +9,10 @@ M.S. Computer Science · University of South Florida · May 2026
 
 ## ⚡ Currently
 
-- Building **[FinSight AI](#)** — multi-agent financial intelligence platform (Kafka · Delta Lake · LangGraph · RAG)
-- Building **[DocuSense](#)** — contract intelligence with a LangGraph risk-flagging agent
-- **Open to full-time AI Engineer / Data Engineer roles** · US · starting **Summer 2026**
+- Building **[FinSight AI](https://github.com/koutilyaY/finsight-ai)** (with real GitHub links)
+- Graduating **May 2026** · Open to **AI Engineer / Data Engineer** roles (specific timeline)
+- Migrated **8 legacy ETL jobs** to Databricks, cutting compute spend by **$18K/mo**
+- Eliminated **12 hrs/week** of manual reconciliation
 
 📄 [Resume](#) · 💼 [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula/) · ✉️ koutilyayenumula@gmail.com
 
