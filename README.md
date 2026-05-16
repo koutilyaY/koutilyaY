@@ -12,7 +12,8 @@ M.S. Computer Science · University of South Florida · May 2026
 - Graduating **May 2026** · Open to **AI Engineer / Data Engineer / ML Engineer** roles (US, Summer 2026+)
 - Building **[FinSight AI](https://github.com/koutilyaY/finsight-ai)** — multi-agent financial intelligence platform (Kafka · PySpark · LangGraph · RAG · 103 files, 9.5K LOC)
 - Building **[DataShield](https://github.com/koutilyaY/datashield)** — real-time data observability platform (FastAPI · PostgreSQL · Docker)
-- Building **[Real-Time Fraud Detection](https://github.com/koutilyaY/fraud-detection-pipeline)** — Kafka streaming pipeline with sub-2s latency
+- Building **[PayGuard - Real-Time Fraud Detection](https://github.com/koutilyaY/payguard-realtime-fraud)** — Kafka streaming pipeline with sub-2s latency
+- Building **[DocuSense](https://github.com/koutilyaY/docusense)** — contract intelligence with LangGraph risk-flagging agent
 
 📄 [Resume](https://github.com/koutilyaY/resume) · 💼 [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula/) · 🌐 [Portfolio](#) · ✉️ koutilya718@gmail.com
 
@@ -102,7 +103,7 @@ M.S. Computer Science · University of South Florida · May 2026
 
 ---
 
-### ⚡ **Real-Time Fraud Detection Pipeline**
+### 💳 **PayGuard - Real-Time Fraud Detection Pipeline**
 **Real-world problem:** Card fraud happens in milliseconds. Batch detection catches fraud too late.
 
 **Solution:** Sub-2-second end-to-end detection on synthetic card-transaction streams using Kafka → PySpark Structured Streaming → Delta Lake (ACID) → Grafana live monitoring.
@@ -114,7 +115,23 @@ M.S. Computer Science · University of South Florida · May 2026
 
 **Tech Stack:** Kafka · PySpark Structured Streaming · Delta Lake · Grafana
 
-→ [View repo](https://github.com/koutilyaY/fraud-detection-pipeline)
+→ [View repo](https://github.com/koutilyaY/payguard-realtime-fraud)
+
+---
+
+### 📄 **DocuSense** — Contract Intelligence & Risk Flagging
+**Real-world problem:** Legal teams spend days reviewing contracts for obligations, exceptions, and risks. Manual process is error-prone and expensive.
+
+**Solution:** LangGraph agent + semantic chunking + RAG for surfacing obligations, exceptions, and risk clauses in long-form legal documents. Airflow DAGs orchestrate ingestion; Streamlit UI for analyst workflows.
+
+**Key metrics:**
+- **Sub-3s latency** on contract risk classification
+- **94% recall** on obligation extraction (legal compliance critical)
+- **Streamlit + Airflow** orchestration for scalable ingestion
+
+**Tech Stack:** LangGraph · RAG · Airflow · Streamlit · AWS
+
+→ [View repo](https://github.com/koutilyaY/docusense)
 
 ---
 
