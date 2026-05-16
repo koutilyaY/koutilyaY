@@ -12,7 +12,7 @@ M.S. Computer Science · University of South Florida · May 2026
 - Graduating **May 2026** · Open to **AI Engineer / Data Engineer / ML Engineer** roles (US, Summer 2026+)
 - Building **[FinSight AI](https://github.com/koutilyaY/finsight-ai)** — multi-agent financial intelligence platform (Kafka · PySpark · LangGraph · RAG · 103 files, 9.5K LOC)
 - Building **[DataShield](https://github.com/koutilyaY/datashield)** — real-time data observability platform (FastAPI · PostgreSQL · Docker)
-- Building **[PayGuard - Real-Time Fraud Detection](https://github.com/koutilyaY/payguard-realtime-fraud)** — Kafka streaming pipeline with sub-2s latency
+- Building **[PayGuard - Real-Time Fraud Detection](https://github.com/koutilyaY/payguard-realtime-fraud)** — Kafka streaming pipeline with sub-7ms latency
 - Building **[DocuSense](https://github.com/koutilyaY/docusense)** — contract intelligence with LangGraph risk-flagging agent
 
 📄 [Resume](https://github.com/koutilyaY/resume) · 💼 [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula/) · 🌐 [Portfolio](#) · ✉️ koutilya718@gmail.com
@@ -104,16 +104,22 @@ M.S. Computer Science · University of South Florida · May 2026
 ---
 
 ### 💳 **PayGuard - Real-Time Fraud Detection Pipeline**
-**Real-world problem:** Card fraud happens in milliseconds. Batch detection catches fraud too late.
+**Real-world problem:** Card fraud happens in milliseconds. Batch detection catches fraud too late. Real-time systems must balance accuracy with sub-second latency.
 
-**Solution:** Sub-2-second end-to-end detection on synthetic card-transaction streams using Kafka → PySpark Structured Streaming → Delta Lake (ACID) → Grafana live monitoring.
+**Solution:** Production-grade streaming fraud detection platform processing live Kafka events (10 partitions) through Delta Lake medallion architecture (Bronze → Silver → Gold) with LightGBM scoring. Sub-7ms API response time for real-time fraud risk evaluation across 4,700+ user profiles.
 
 **Key metrics:**
-- **Sub-2s end-to-end detection latency** (ingestion → scoring → alert)
-- **500M+ daily transactions** throughput capacity
-- **99.9% uptime** on critical fraud-detection path
+- **P50 API latency: 3.1ms** (median response time)
+- **P99 API latency: 6.7ms** (99th percentile, sub-10ms guarantee)
+- **AUC-ROC: 1.0** on test set (perfect separation on velocity, high-value, ATM fraud archetypes)
+- **4,708 unique users scored** in production (live Delta user profile cache)
+- **58,000 training samples** with synthetically generated fraud patterns
+- **20 Docker containers** running distributed pipeline
+- **10 Kafka partitions** for parallel event ingestion (3-6 msg/sec throughput)
+- **Delta Lake UPSERT** for sub-2ms user profile updates
+- **MLflow model registry** with v4 production model
 
-**Tech Stack:** Kafka · PySpark Structured Streaming · Delta Lake · Grafana
+**Tech Stack:** Kafka (10 partitions) · Spark Structured Streaming · Delta Lake (medallion) · LightGBM · MLflow · FastAPI · Docker (20 containers) · Synthetic data generation
 
 → [View repo](https://github.com/koutilyaY/payguard-realtime-fraud)
 
@@ -172,7 +178,7 @@ M.S. Computer Science · University of South Florida · May 2026
 - Real-time & streaming data systems (Kafka, Spark Streaming, Delta Lake)
 - Agentic AI / multi-agent orchestration (LangGraph, ReAct, tool-use)
 - Production observability & MLOps (monitoring, tracing, cost optimization)
-- Working with large-scale datasets (500M+ daily records) at sub-second latency
+- Working with large-scale datasets (500M+ daily records) at sub-millisecond latency
 
 ---
 
