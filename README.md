@@ -8,7 +8,7 @@
 
 ## 🎯 Open to Opportunities
 
-- 🔍 **Target Roles:** AI Engineer, Data Engineer, ML Engineer (US-based, Summer 2026+)
+- 🔍 **Target Roles:** AI Engineer, Data Engineer, ML Engineer, Data Scientist.
 - 💡 **Passion:** Real-time data systems, agentic AI orchestration, production observability, sub-millisecond latency
 - 📧 **Let's Talk:** koutilya718@gmail.com · [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula) · [Portfolio](https://github.com/koutilyaY)
 
