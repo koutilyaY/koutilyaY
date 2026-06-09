@@ -2,7 +2,7 @@
 
 **Data & AI Engineer** — Shipping production ML systems and agentic data pipelines at scale.
 
-**M.S. Computer Science** (May 2026, USF) · **3 yrs** Cognizant & Visa · **AWS Certified Data Engineer**
+**M.S. Computer Science** (May 2026, USF) · **3 yrs** Cognizant · **AWS Certified Data Engineer**
 
 ---
 
