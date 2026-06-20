@@ -6,7 +6,7 @@
 
 <!-- ============================ TYPING ============================ -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=C724B1&center=true&vCenter=true&width=840&lines=Shipping+production+ML+systems+at+scale.;Kafka+%E2%86%92+Spark+%E2%86%92+Delta%2FIceberg+%E2%86%92+Decisions.;Sub-7ms+real-time+fraud+scoring.;Multi-agent+AI+orchestration+with+LangGraph.)](https://github.com/koutilyaY)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=C724B1&center=true&vCenter=true&width=840&lines=Shipping+production+ML+systems+at+scale.;Kafka+%E2%86%92+Spark+%E2%86%92+Delta%2FIceberg+%E2%86%92+Decisions.;Real-time+fraud+scoring+on+streaming+data.;Multi-agent+AI+orchestration+with+LangGraph.)](https://github.com/koutilyaY)
 
 <!-- ============================ SOCIAL ============================ -->
 
@@ -33,11 +33,11 @@
 
 <table>
 <tr>
-  <td align="center"><b>⚡ 3.1ms</b><br/><sub>P50 fraud scoring</sub></td>
-  <td align="center"><b>🛰️ 1M+/day</b><br/><sub>events orchestrated</sub></td>
+  <td align="center"><b>⚡ Real-time</b><br/><sub>Kafka → Flink streaming</sub></td>
+  <td align="center"><b>🤖 6-agent</b><br/><sub>LangGraph (FinSight)</sub></td>
   <td align="center"><b>📈 600M+</b><br/><sub>daily records (prod)</sub></td>
   <td align="center"><b>💰 $3.4M+</b><br/><sub>quantified impact</sub></td>
-  <td align="center"><b>🤖 6-agent</b><br/><sub>LangGraph systems</sub></td>
+  <td align="center"><b>🛠️ 6</b><br/><sub>production-grade builds</sub></td>
 </tr>
 </table>
 
@@ -117,14 +117,14 @@ class KoutilyaYenumula:
 🔗 **[github.com/koutilyaY/finsight-ai](https://github.com/koutilyaY/finsight-ai)**
 
 **Problem:** Investors manually analyze market data for hours — slow, error-prone, expensive.
-**Solution:** End-to-end MLOps platform with **6 ReAct agents (LangGraph)** processing **1M+ market events/day** through Kafka → PySpark medallion → Delta Lake → multi-agent reasoning → streaming APIs.
+**Solution:** End-to-end MLOps platform with **6 ReAct agents (LangGraph)** over a Kafka → PySpark medallion → Delta Lake pipeline, with Feast/Redis features and streaming FastAPI/Streamlit serving.
 
-| Metric | Result |
+| Aspect | Detail |
 |--------|--------|
-| **Sentiment Accuracy** | 87% (FinBERT) vs 65% (VADER baseline) |
-| **Anomaly Detection** | AUC-ROC 0.91 (XGBoost + Isolation Forest) |
-| **Latency (P99)** | 85ms after Redis optimization (was 850ms) |
-| **Code Quality** | 9,500 LOC across 103 files |
+| **Agents** | 6 ReAct agents orchestrated with LangGraph |
+| **Pipeline** | Kafka/Avro → Spark medallion → Delta Lake → Feast/Redis |
+| **ML** | XGBoost + Isolation Forest anomaly detection · FinBERT sentiment |
+| **Serving & Ops** | FastAPI (async SSE) · Streamlit · Prometheus/Grafana/Jaeger · Terraform/EKS |
 
 `Kafka` · `PySpark` · `Delta Lake` · `LangGraph` · `XGBoost` · `SHAP` · `MLflow` · `FastAPI (async SSE)` · `Redis` · `Prometheus/Grafana/Jaeger` · `Terraform EKS`
 
@@ -133,23 +133,22 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>3️⃣ &nbsp;PayGuard</b> — Real-Time Fraud Detection &nbsp;·&nbsp; <code>Sub-7ms · Kafka · LightGBM</code></summary>
+<summary><b>3️⃣ &nbsp;PayGuard</b> — Real-Time Fraud Detection &nbsp;·&nbsp; <code>Kafka · Spark · LightGBM</code></summary>
 
 <br/>
 
 🔗 **[github.com/koutilyaY/payguard-realtime-fraud](https://github.com/koutilyaY/payguard-realtime-fraud)**
 
 **Problem:** Card fraud happens in milliseconds; batch detection is 24 hours too late.
-**Solution:** Live Kafka events → Delta Lake medallion → LightGBM scoring across **4,700+ cached user profiles** at **3.1ms P50 / 6.7ms P99**.
+**Solution:** Live Kafka events → Spark Structured Streaming → Delta Lake medallion → LightGBM scoring with real-time decisions and an analyst feedback loop.
 
-| Metric | Result |
+| Aspect | Detail |
 |--------|--------|
-| **P50 / P99 Latency** | 3.1ms / 6.7ms |
-| **Model Performance** | AUC-ROC 1.0 (test set) |
-| **Throughput** | 30–60 msg/sec (10 partitions) |
-| **Cost / 1M Events** | $0.25 (vs $12.50 DataDog) |
+| **Streaming** | Kafka → Spark Structured Streaming → Delta medallion |
+| **Model** | LightGBM scorer (synthetic data, MLflow-tracked) |
+| **Signals** | velocity · high-value · account-takeover |
+| **Serving** | FastAPI decision API · Streamlit dashboard |
 
-**Detects:** velocity fraud · 5σ anomalies · high-value · ATM fraud
 `Kafka` · `PySpark Structured Streaming` · `Delta Lake` · `LightGBM` · `MLflow` · `FastAPI` · `Streamlit` · `Prometheus/Grafana`
 → [Live Dashboard](https://payguard-realtime-fraud-mmj5yjucgd9ekrl7dkfmoi.streamlit.app)
 
@@ -158,20 +157,20 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>4️⃣ &nbsp;DataShield</b> — Real-Time Data Observability &nbsp;·&nbsp; <code>FastAPI · &lt;100ms · Anomaly ML</code></summary>
+<summary><b>4️⃣ &nbsp;DataShield</b> — Real-Time Data Observability &nbsp;·&nbsp; <code>FastAPI · Anomaly ML · Lineage</code></summary>
 
 <br/>
 
 🔗 **[github.com/koutilyaY/DataShield](https://github.com/koutilyaY/DataShield)**
 
 **Problem:** Pipeline failures cascade silently; heavyweight tools are slow.
-**Solution:** Lightweight FastAPI microservice for real-time schema validation, anomaly detection, and alerting at **<100ms P99**.
+**Solution:** Lightweight FastAPI service for real-time schema validation, anomaly detection, and lineage/blast-radius tracking — with a zero-infra demo mode.
 
-| Metric | Result |
+| Aspect | Detail |
 |--------|--------|
-| **P99 Latency** | <100ms schema validation |
-| **Anomaly Detection** | 94% accuracy (statistical baselines) |
-| **Cost vs DataDog** | $0.47 / 1M events (vs $12.50) |
+| **Tests** | 22 / 38 pass with no infra |
+| **Detection** | anomaly ML on statistical baselines (synthetic) |
+| **Validation** | real-time schema checks + lineage / blast-radius |
 
 `Python` · `FastAPI` · `PostgreSQL` · `Pydantic` · `Docker` · `Prometheus` · `GitHub Actions`
 
@@ -180,16 +179,16 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>5️⃣ &nbsp;DocuSense</b> — Contract Intelligence Agent &nbsp;·&nbsp; <code>LangGraph · RAG · 94% recall</code></summary>
+<summary><b>5️⃣ &nbsp;DocuSense</b> — Contract Intelligence Agent &nbsp;·&nbsp; <code>Local-first RAG · Ollama · FAISS</code></summary>
 
 <br/>
 
 🔗 **[github.com/koutilyaY/docusense](https://github.com/koutilyaY/docusense)**
 
 **Problem:** Legal teams spend days reviewing contracts for obligations, exceptions, risks.
-**Solution:** LangGraph agent + semantic chunking + RAG extracting obligations & risk clauses from long-form legal docs at **sub-3s latency, 94% recall**.
+**Solution:** Local-first RAG (FAISS + Ollama) over legal contracts — cited Q&A plus a risk-classification agent that flags obligations & risk clauses. 100% local, privacy-first.
 
-`LangGraph` · `RAG` · `Airflow` · `Streamlit` · `AWS`
+`LangChain` · `RAG` · `FAISS` · `Ollama` · `FastAPI` · `Streamlit`
 
 </details>
 
@@ -203,7 +202,7 @@ class KoutilyaYenumula:
 🔗 **[github.com/koutilyaY/creatorpulse](https://github.com/koutilyaY/creatorpulse)**
 
 **Problem:** Creator churn quietly erodes platform revenue, but standard models can't separate correlation from causation or predict *when* burnout hits.
-**Solution:** End-to-end DS system combining **XGBoost** prediction with **Causal Inference (DiD)**, **Survival Analysis**, and **A/B testing** to quantify and protect revenue.
+**Solution:** End-to-end DS system on **synthetic behavioral data** combining **XGBoost** prediction with **Causal Inference (DiD)**, **Survival Analysis**, and **A/B testing** to quantify retention levers.
 
 `XGBoost` · `Causal Inference (DiD)` · `Survival Analysis` · `A/B Testing` · `Python`
 
