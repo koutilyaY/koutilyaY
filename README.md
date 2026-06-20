@@ -2,7 +2,7 @@
 
 <!-- ============================ HERO ============================ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B486B,50:2E86AB,100:6DD5FA&height=200&section=header&text=Koutilya%20Yenumula&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%7C%20Real-Time%20Pipelines%20%7C%20Agentic%20ML%20Systems&descSize=18&descAlignY=58&animation=fadeIn" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B486B,50:2E86AB,100:6DD5FA&height=200&section=header&text=Koutilya%20Yenumula&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%7C%20Real-Time%20Pipelines%20%7C%20Agentic%20ML%20Systems&descSize=18&descAlignY=58&animation=fadeIn&v=2" alt="Koutilya Yenumula — Data & AI Engineer"/>
 
 <!-- ============================ TYPING ============================ -->
 
@@ -235,6 +235,6 @@ Migrated **11 legacy ETL jobs** to Databricks medallion; cut costs **47%**.
 
 <sub><em>Production data systems · Agentic AI · Real-time pipelines · MLOps · System design</em></sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6DD5FA,50:2E86AB,100:0B486B&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6DD5FA,50:2E86AB,100:0B486B&height=120&section=footer&v=2" alt="footer"/>
 
 </div>
