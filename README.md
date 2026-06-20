@@ -73,6 +73,25 @@ class KoutilyaYenumula:
 **Problem:** Supply chains run on batch data — ERP, WMS, TMS, and IoT signals arrive hours late and siloed, so stockouts and cold-chain excursions are noticed only after the damage is done.
 **Solution:** A fully open-source, event-driven **lakehouse** delivering up-to-the-second visibility across inventory, orders, shipments, and IoT — with streaming ML, RAG assistant, and a what-if digital twin. **No managed or paid services.**
 
+```text
+  ERP · WMS · TMS · IoT
+          │ events
+          ▼
+ ┌─────────────────┐   ┌──────────────┐   ┌──────────────────────────┐
+ │  Kafka          │──►│ Apache Flink │──►│  Apache Iceberg (MinIO)  │
+ │  + Debezium CDC │   │  4 stream    │   │  Bronze → Silver → Gold  │
+ │  + Schema Reg.  │   │  jobs · 1min │   └────────────┬─────────────┘
+ └─────────────────┘   └──────────────┘                │
+                                          ┌────────────┼──────────────┐
+                                          ▼            ▼              ▼
+                                    ┌──────────┐ ┌────────────┐ ┌───────────┐
+                                    │   dbt    │ │ Trino +    │ │  ML / RAG │
+                                    │  Gold DQ │ │ FastAPI    │ │  + Digital│
+                                    │ +lineage │ │  serving   │ │   Twin    │
+                                    └──────────┘ └────────────┘ └───────────┘
+       Orchestrated by Dagster · Observed by Prometheus · Hardened: PII masking + API auth
+```
+
 | Capability | Detail |
 |------------|--------|
 | **Streaming core** | Kafka + **Apache Flink** (4 real-time jobs, 1-min windows) |
