@@ -18,7 +18,7 @@
 </p>
 
 **Data & AI Engineer** — shipping production ML systems and agentic data pipelines at scale.
-**M.S. Computer Science** (May 2026, USF) · **3 yrs** @ Cognizant & Visa · **AWS Certified Data Engineer**
+**M.S. Computer Science** (May 2026, USF) · **3 yrs** @ Cognizant · **AWS Certified Data Engineer**
 
 </div>
 
@@ -30,7 +30,7 @@
 class KoutilyaYenumula:
     role        = "Data & AI Engineer"
     education   = "M.S. Computer Science — University of South Florida (May 2026)"
-    experience  = "3 yrs production data systems @ Visa + Cognizant"
+    experience  = "3 yrs production data systems @ Cognizant"
     cert        = "AWS Certified Data Engineer — Associate (2025)"
     focus       = ["real-time streaming", "agentic AI", "medallion lakehouse", "MLOps"]
     mission     = "Turn raw event streams into decisions before the moment passes."
@@ -120,16 +120,6 @@ End-to-end streaming lakehouse — **Kafka + Avro/Schema Registry → Debezium C
 ---
 
 ## 💼 Professional Track Record
-
-### **Visa** — Data Engineer *(Oct 2024 – Sep 2025)*
-Architected **12 ELT pipelines** with Prefect + Delta Lake.
-
-| Achievement | Before | After | Impact |
-|-------------|--------|-------|--------|
-| Dashboard latency | 3.2 min | 90s | **52% faster** |
-| SLA compliance | 87% | 96% | **+9pp** (8 teams) |
-| Query execution | 12 min | 140s | **86% faster** |
-| Data quality | 14 hrs/week manual | Automated | **$2.4M loss prevented** |
 
 ### **Cognizant** — Data Engineer *(Sep 2021 – Aug 2024)*
 Migrated **11 legacy ETL jobs** to Databricks medallion; cut costs **47%**.
