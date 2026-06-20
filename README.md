@@ -69,7 +69,22 @@ class KoutilyaYenumula:
 
 > Production-grade systems with real architecture, real tests, and measured impact.
 
-### 1️⃣ [FinSight AI](https://github.com/koutilyaY/finsight-ai) — Multi-Agent Financial Intelligence
+### 1️⃣ [Real-Time Supply-Chain Data Platform](https://github.com/koutilyaY/Real-time-supply-chain-data-platform) — Event-Driven Lakehouse
+**Problem:** Supply chains run on batch data — ERP, WMS, TMS, and IoT signals arrive hours late and siloed, so stockouts and cold-chain excursions are noticed only after the damage is done.
+**Solution:** A fully open-source, event-driven **lakehouse** delivering up-to-the-second visibility across inventory, orders, shipments, and IoT — with streaming ML, RAG assistant, and a what-if digital twin. **No managed or paid services.**
+
+| Capability | Detail |
+|------------|--------|
+| **Streaming core** | Kafka + **Apache Flink** (4 real-time jobs, 1-min windows) |
+| **Open lakehouse** | **Apache Iceberg** on MinIO — Bronze → Silver → Gold |
+| **CDC + governance** | Debezium CDC · Avro/Schema Registry · PII masking · API auth |
+| **Serving & ops** | Trino + FastAPI · Dagster–dbt lineage · Prometheus alerts |
+
+`Kafka` · `Flink` · `Iceberg` · `Trino` · `dbt` · `Dagster` · `Debezium` · `MLflow` · `MinIO` · `FastAPI`
+
+---
+
+### 2️⃣ [FinSight AI](https://github.com/koutilyaY/finsight-ai) — Multi-Agent Financial Intelligence
 **Problem:** Investors manually analyze market data for hours — slow, error-prone, expensive.
 **Solution:** End-to-end MLOps platform with **6 ReAct agents (LangGraph)** processing **1M+ market events/day** through Kafka → PySpark medallion → Delta Lake → multi-agent reasoning → streaming APIs.
 
@@ -84,7 +99,7 @@ class KoutilyaYenumula:
 
 ---
 
-### 2️⃣ [PayGuard](https://github.com/koutilyaY/payguard-realtime-fraud) — Real-Time Fraud Detection *(Sub-7ms)*
+### 3️⃣ [PayGuard](https://github.com/koutilyaY/payguard-realtime-fraud) — Real-Time Fraud Detection *(Sub-7ms)*
 **Problem:** Card fraud happens in milliseconds; batch detection is 24 hours too late.
 **Solution:** Live Kafka events → Delta Lake medallion → LightGBM scoring across **4,700+ cached user profiles** at **3.1ms P50 / 6.7ms P99**.
 
@@ -101,7 +116,7 @@ class KoutilyaYenumula:
 
 ---
 
-### 3️⃣ [DataShield](https://github.com/koutilyaY/DataShield) — Real-Time Data Observability
+### 4️⃣ [DataShield](https://github.com/koutilyaY/DataShield) — Real-Time Data Observability
 **Problem:** Pipeline failures cascade silently; heavyweight tools are slow.
 **Solution:** Lightweight FastAPI microservice for real-time schema validation, anomaly detection, and alerting at **<100ms P99**.
 
@@ -115,7 +130,7 @@ class KoutilyaYenumula:
 
 ---
 
-### 4️⃣ [DocuSense](https://github.com/koutilyaY/docusense) — Contract Intelligence Agent
+### 5️⃣ [DocuSense](https://github.com/koutilyaY/docusense) — Contract Intelligence Agent
 **Problem:** Legal teams spend days reviewing contracts for obligations, exceptions, risks.
 **Solution:** LangGraph agent + semantic chunking + RAG extracting obligations & risk clauses from long-form legal docs at **sub-3s latency, 94% recall**.
 
@@ -123,13 +138,15 @@ class KoutilyaYenumula:
 
 ---
 
-### ⚡ Plus: [Real-Time Supply-Chain Platform](https://github.com/koutilyaY/Real-time-supply-chain-data-platform)
-End-to-end streaming lakehouse — **Kafka + Avro/Schema Registry → Debezium CDC → Spark medallion → Apache Iceberg → dbt**, hardened with PII masking, API auth + rate limiting, Prometheus alerts, and Dagster–dbt lineage.
-`Kafka` · `Iceberg` · `dbt` · `Dagster` · `Debezium`
+### 6️⃣ [CreatorPulse](https://github.com/koutilyaY/creatorpulse) — Creator-Economy Burnout Prediction
+**Problem:** Creator churn quietly erodes platform revenue, but standard models can't separate correlation from causation or predict *when* burnout hits.
+**Solution:** End-to-end DS system combining **XGBoost** prediction with **Causal Inference (DiD)**, **Survival Analysis**, and **A/B testing** to quantify and protect revenue.
+
+`XGBoost` · `Causal Inference (DiD)` · `Survival Analysis` · `A/B Testing` · `Python`
 
 <div align="center">
 
-**More:** [Churn ($1.6M impact)](https://github.com/koutilyaY/churn-prediction) · [Enterprise Data Platform](https://github.com/koutilyaY/enterprise-data-platform) · [Commerce Analytics on AWS](https://github.com/koutilyaY/commerce-analytics-aws) · [Credit-Card Segmentation](https://github.com/koutilyaY/credit-card-customer-segmentation)
+**More:** [Churn — $1.6M impact](https://github.com/koutilyaY/churn-prediction) · [Enterprise Data Platform](https://github.com/koutilyaY/enterprise-data-platform) · [Commerce Analytics on AWS](https://github.com/koutilyaY/commerce-analytics-aws) · [E-commerce Data Platform](https://github.com/koutilyaY/ecommerce-data-engineering-platform) · [Credit-Card Segmentation](https://github.com/koutilyaY/credit-card-customer-segmentation)
 
 </div>
 
