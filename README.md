@@ -2,19 +2,19 @@
 
 <!-- ============================ HERO ============================ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B486B,50:2E86AB,100:6DD5FA&height=200&section=header&text=Koutilya%20Yenumula&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%7C%20Real-Time%20Pipelines%20%7C%20Agentic%20ML%20Systems&descSize=18&descAlignY=58&animation=fadeIn&v=2" alt="Koutilya Yenumula — Data & AI Engineer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6E1FB8,50:C724B1,100:00E5FF&height=200&section=header&text=Koutilya%20Yenumula&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%7C%20Real-Time%20Pipelines%20%7C%20Agentic%20ML%20Systems&descSize=18&descAlignY=58&animation=fadeIn&v=2" alt="Koutilya Yenumula — Data & AI Engineer"/>
 
 <!-- ============================ TYPING ============================ -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=2E86AB&center=true&vCenter=true&width=840&lines=Shipping+production+ML+systems+at+scale.;Kafka+%E2%86%92+Spark+%E2%86%92+Delta%2FIceberg+%E2%86%92+Decisions.;Sub-7ms+real-time+fraud+scoring.;Multi-agent+AI+orchestration+with+LangGraph.)](https://github.com/koutilyaY)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=C724B1&center=true&vCenter=true&width=840&lines=Shipping+production+ML+systems+at+scale.;Kafka+%E2%86%92+Spark+%E2%86%92+Delta%2FIceberg+%E2%86%92+Decisions.;Sub-7ms+real-time+fraud+scoring.;Multi-agent+AI+orchestration+with+LangGraph.)](https://github.com/koutilyaY)
 
 <!-- ============================ SOCIAL ============================ -->
 
 <p>
   <a href="https://www.linkedin.com/in/koutilyayenumula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-2E86AB?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=koutilyaY&style=for-the-badge&color=2E86AB&label=PROFILE+VIEWS"/>
+  <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-C724B1?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=koutilyaY&style=for-the-badge&color=C724B1&label=PROFILE+VIEWS"/>
 </p>
 
 ### I architect real-time data platforms that turn event streams into decisions — at scale, with sub-second latency.
@@ -234,14 +234,14 @@ Migrated **11 legacy ETL jobs** to Databricks medallion; cut costs **47%**.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=koutilyaY&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=2E86AB&icon_color=6DD5FA&text_color=8b949e&bg_color=0d1117" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koutilyaY&layout=compact&hide_border=true&langs_count=8&title_color=2E86AB&text_color=8b949e&bg_color=0d1117" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=koutilyaY&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=C724B1&icon_color=00E5FF&text_color=8b949e&bg_color=0d1117" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=koutilyaY&layout=compact&hide_border=true&langs_count=8&title_color=C724B1&text_color=8b949e&bg_color=0d1117" />
 
-<img height="170" src="https://streak-stats.demolab.com?user=koutilyaY&hide_border=true&background=0d1117&stroke=2E86AB&ring=6DD5FA&fire=E25A1C&currStreakLabel=2E86AB&sideLabels=8b949e&dates=8b949e" />
+<img height="170" src="https://streak-stats.demolab.com?user=koutilyaY&hide_border=true&background=0d1117&stroke=C724B1&ring=00E5FF&fire=E25A1C&currStreakLabel=C724B1&sideLabels=8b949e&dates=8b949e" />
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=koutilyaY&bg_color=0d1117&color=6DD5FA&line=2E86AB&point=ffffff&area=true&hide_border=true" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=koutilyaY&bg_color=0d1117&color=00E5FF&line=C724B1&point=ffffff&area=true&hide_border=true" />
 
-![trophies](https://github-profile-trophy.vercel.app/?username=koutilyaY&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7)
+![trophies](https://github-profile-trophy.vercel.app/?username=koutilyaY&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7)
 
 </div>
 
@@ -267,10 +267,10 @@ Migrated **11 legacy ETL jobs** to Databricks medallion; cut costs **47%**.
 
 ### 💬 Let's build something that ships.
 
-<a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Reach_out-2E86AB?style=for-the-badge&logo=minutemailer&logoColor=white"/></a>
+<a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Reach_out-C724B1?style=for-the-badge&logo=minutemailer&logoColor=white"/></a>
 
 <sub><em>Production data systems · Agentic AI · Real-time pipelines · MLOps · System design</em></sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6DD5FA,50:2E86AB,100:0B486B&height=120&section=footer&v=2" alt="footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:C724B1,100:6E1FB8&height=120&section=footer&v=2" alt="footer"/>
 
 </div>
