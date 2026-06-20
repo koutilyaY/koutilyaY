@@ -11,14 +11,30 @@
 <!-- ============================ SOCIAL ============================ -->
 
 <p>
-  <a href="https://www.linkedin.com/in/koutilya-yenumula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/koutilyayenumula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-2E86AB?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=koutilyaY&style=for-the-badge&color=2E86AB&label=PROFILE+VIEWS"/>
 </p>
 
-**Data & AI Engineer** — shipping production ML systems and agentic data pipelines at scale.
-**M.S. Computer Science** (May 2026, USF) · **3 yrs** @ Cognizant · **AWS Certified Data Engineer**
+### I architect real-time data platforms that turn event streams into decisions — at scale, with sub-second latency.
+
+**Data & AI Engineer** specializing in streaming lakehouses, agentic AI, and production MLOps.
+**M.S. Computer Science** (May 2026, USF) · **3 yrs** enterprise data engineering @ Cognizant · **AWS Certified Data Engineer**
+
+<br/>
+
+<!-- ============================ IMPACT AT A GLANCE ============================ -->
+
+<table>
+<tr>
+  <td align="center"><b>⚡ 3.1ms</b><br/><sub>P50 fraud scoring</sub></td>
+  <td align="center"><b>🛰️ 1M+/day</b><br/><sub>events orchestrated</sub></td>
+  <td align="center"><b>📈 600M+</b><br/><sub>daily records (prod)</sub></td>
+  <td align="center"><b>💰 $3.4M+</b><br/><sub>quantified impact</sub></td>
+  <td align="center"><b>🤖 6-agent</b><br/><sub>LangGraph systems</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -45,7 +61,7 @@ class KoutilyaYenumula:
 
 - 🔍 **Target Roles:** AI Engineer · Data Engineer · ML Engineer *(US-based, Summer 2026+)*
 - 💡 **Passion:** Real-time data systems, agentic AI orchestration, production observability, sub-millisecond latency
-- 📧 **Let's Talk:** [koutilya718@gmail.com](mailto:koutilya718@gmail.com) · [LinkedIn](https://www.linkedin.com/in/koutilya-yenumula) · [Resume](https://github.com/koutilyaY/resume)
+- 📧 **Let's Talk:** [koutilya718@gmail.com](mailto:koutilya718@gmail.com) · [LinkedIn](https://www.linkedin.com/in/koutilyayenumula) · [Resume](https://github.com/koutilyaY/resume)
 
 ---
 
