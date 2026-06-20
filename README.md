@@ -2,7 +2,7 @@
 
 <!-- ============================ HERO ============================ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6E1FB8,50:C724B1,100:00E5FF&height=200&section=header&text=Koutilya%20Yenumula&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%7C%20Real-Time%20Pipelines%20%7C%20Agentic%20ML%20Systems&descSize=18&descAlignY=58&animation=fadeIn&v=2" alt="Koutilya Yenumula — Data & AI Engineer"/>
+<img width="100%" src="./header.svg" alt="Koutilya Yenumula — Data & AI Engineer"/>
 
 <!-- ============================ TYPING ============================ -->
 
@@ -15,6 +15,11 @@
   <a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-C724B1?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=koutilyaY&style=for-the-badge&color=C724B1&label=PROFILE+VIEWS"/>
+</p>
+
+<!-- Verifiable certification — replace CREDLY_URL with your Credly badge link -->
+<p>
+  <a href="https://www.credly.com/users/koutilyayenumula"><img src="https://img.shields.io/badge/AWS_Certified-Data_Engineer_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/></a>
 </p>
 
 ### I architect real-time data platforms that turn event streams into decisions — at scale, with sub-second latency.
@@ -103,7 +108,13 @@ class KoutilyaYenumula:
 
 ---
 
-### 2️⃣ [FinSight AI](https://github.com/koutilyaY/finsight-ai) — Multi-Agent Financial Intelligence
+<details>
+<summary><b>2️⃣ &nbsp;FinSight AI</b> — Multi-Agent Financial Intelligence &nbsp;·&nbsp; <code>LangGraph · Kafka · Spark</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/finsight-ai](https://github.com/koutilyaY/finsight-ai)**
+
 **Problem:** Investors manually analyze market data for hours — slow, error-prone, expensive.
 **Solution:** End-to-end MLOps platform with **6 ReAct agents (LangGraph)** processing **1M+ market events/day** through Kafka → PySpark medallion → Delta Lake → multi-agent reasoning → streaming APIs.
 
@@ -116,9 +127,17 @@ class KoutilyaYenumula:
 
 `Kafka` · `PySpark` · `Delta Lake` · `LangGraph` · `XGBoost` · `SHAP` · `MLflow` · `FastAPI (async SSE)` · `Redis` · `Prometheus/Grafana/Jaeger` · `Terraform EKS`
 
+</details>
+
 ---
 
-### 3️⃣ [PayGuard](https://github.com/koutilyaY/payguard-realtime-fraud) — Real-Time Fraud Detection *(Sub-7ms)*
+<details>
+<summary><b>3️⃣ &nbsp;PayGuard</b> — Real-Time Fraud Detection &nbsp;·&nbsp; <code>Sub-7ms · Kafka · LightGBM</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/payguard-realtime-fraud](https://github.com/koutilyaY/payguard-realtime-fraud)**
+
 **Problem:** Card fraud happens in milliseconds; batch detection is 24 hours too late.
 **Solution:** Live Kafka events → Delta Lake medallion → LightGBM scoring across **4,700+ cached user profiles** at **3.1ms P50 / 6.7ms P99**.
 
@@ -133,9 +152,17 @@ class KoutilyaYenumula:
 `Kafka` · `PySpark Structured Streaming` · `Delta Lake` · `LightGBM` · `MLflow` · `FastAPI` · `Streamlit` · `Prometheus/Grafana`
 → [Live Dashboard](https://payguard-realtime-fraud-mmj5yjucgd9ekrl7dkfmoi.streamlit.app)
 
+</details>
+
 ---
 
-### 4️⃣ [DataShield](https://github.com/koutilyaY/DataShield) — Real-Time Data Observability
+<details>
+<summary><b>4️⃣ &nbsp;DataShield</b> — Real-Time Data Observability &nbsp;·&nbsp; <code>FastAPI · &lt;100ms · Anomaly ML</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/DataShield](https://github.com/koutilyaY/DataShield)**
+
 **Problem:** Pipeline failures cascade silently; heavyweight tools are slow.
 **Solution:** Lightweight FastAPI microservice for real-time schema validation, anomaly detection, and alerting at **<100ms P99**.
 
@@ -147,21 +174,39 @@ class KoutilyaYenumula:
 
 `Python` · `FastAPI` · `PostgreSQL` · `Pydantic` · `Docker` · `Prometheus` · `GitHub Actions`
 
+</details>
+
 ---
 
-### 5️⃣ [DocuSense](https://github.com/koutilyaY/docusense) — Contract Intelligence Agent
+<details>
+<summary><b>5️⃣ &nbsp;DocuSense</b> — Contract Intelligence Agent &nbsp;·&nbsp; <code>LangGraph · RAG · 94% recall</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/docusense](https://github.com/koutilyaY/docusense)**
+
 **Problem:** Legal teams spend days reviewing contracts for obligations, exceptions, risks.
 **Solution:** LangGraph agent + semantic chunking + RAG extracting obligations & risk clauses from long-form legal docs at **sub-3s latency, 94% recall**.
 
 `LangGraph` · `RAG` · `Airflow` · `Streamlit` · `AWS`
 
+</details>
+
 ---
 
-### 6️⃣ [CreatorPulse](https://github.com/koutilyaY/creatorpulse) — Creator-Economy Burnout Prediction
+<details>
+<summary><b>6️⃣ &nbsp;CreatorPulse</b> — Creator-Economy Burnout Prediction &nbsp;·&nbsp; <code>Causal Inference · Survival Analysis</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/creatorpulse](https://github.com/koutilyaY/creatorpulse)**
+
 **Problem:** Creator churn quietly erodes platform revenue, but standard models can't separate correlation from causation or predict *when* burnout hits.
 **Solution:** End-to-end DS system combining **XGBoost** prediction with **Causal Inference (DiD)**, **Survival Analysis**, and **A/B testing** to quantify and protect revenue.
 
 `XGBoost` · `Causal Inference (DiD)` · `Survival Analysis` · `A/B Testing` · `Python`
+
+</details>
 
 <div align="center">
 
@@ -240,6 +285,13 @@ Migrated **11 legacy ETL jobs** to Databricks medallion; cut costs **47%**.
 <img height="170" src="https://streak-stats.demolab.com?user=koutilyaY&hide_border=true&background=0d1117&stroke=C724B1&ring=00E5FF&fire=E25A1C&currStreakLabel=C724B1&sideLabels=8b949e&dates=8b949e" />
 
 <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=koutilyaY&bg_color=0d1117&color=00E5FF&line=C724B1&point=ffffff&area=true&hide_border=true" />
+
+<!-- Contribution snake — generated by .github/workflows/snake.yml into the 'output' branch -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/koutilyaY/koutilyaY/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/koutilyaY/koutilyaY/output/github-contribution-grid-snake.svg" />
+  <img width="95%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/koutilyaY/koutilyaY/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ![trophies](https://github-profile-trophy.vercel.app/?username=koutilyaY&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7)
 
