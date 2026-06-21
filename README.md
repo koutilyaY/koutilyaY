@@ -15,7 +15,6 @@
   <a href="https://www.linkedin.com/in/koutilyayenumula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-C724B1?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=koutilyaY&style=for-the-badge&color=C724B1&label=PROFILE+VIEWS"/>
 </p>
 
 <!-- Verifiable certification — replace CREDLY_URL with your Credly badge link -->
