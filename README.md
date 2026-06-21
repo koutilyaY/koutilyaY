@@ -11,6 +11,7 @@
 <!-- ============================ SOCIAL ============================ -->
 
 <p>
+  <a href="https://portfolio-rosy-tau-67.vercel.app"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Live_Portfolio-6E1FB8?style=for-the-badge&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/koutilyayenumula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:koutilya718@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/koutilyaY/resume"><img src="https://img.shields.io/badge/Resume-C724B1?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
@@ -21,6 +22,8 @@
 <p>
   <a href="https://www.credly.com/users/koutilyayenumula"><img src="https://img.shields.io/badge/AWS_Certified-Data_Engineer_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/></a>
 </p>
+
+### 🌐 [Explore my work, live → **portfolio-rosy-tau-67.vercel.app**](https://portfolio-rosy-tau-67.vercel.app)
 
 ### I architect real-time data platforms that turn event streams into decisions — at scale, with sub-second latency.
 
