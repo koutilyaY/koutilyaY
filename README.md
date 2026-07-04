@@ -67,7 +67,7 @@ class KoutilyaYenumula:
 ## 🎯 Open to Opportunities
 
 - 🔭 **Currently:** Shipping **real-data analyses** (NYC 311, e-commerce conversion) and a **HIPAA-aware clinical data platform** (FHIR/HL7); building real-time lakehouses with Flink + Iceberg + dbt.
-- 🔍 **Target Roles:** AI Engineer · Data Engineer · ML Engineer *(US-based, Summer 2026+)*
+- 🔍 **Target Roles:** AI Engineer · Data Engineer · ML Engineer *(US-based · available now)*
 - 💡 **Passion:** Real-time data systems, agentic AI orchestration, production observability, sub-millisecond latency
 - 📧 **Let's Talk:** [koutilya718@gmail.com](mailto:koutilya718@gmail.com) · [LinkedIn](https://www.linkedin.com/in/koutilyayenumula) · [Resume](https://github.com/koutilyaY/resume)
 
