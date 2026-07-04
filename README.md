@@ -66,7 +66,7 @@ class KoutilyaYenumula:
 
 ## 🎯 Open to Opportunities
 
-- 🔭 **Currently:** Building real-time lakehouses with **Flink + Iceberg + dbt**; exploring **agentic RAG** for autonomous data pipelines.
+- 🔭 **Currently:** Shipping **real-data analyses** (NYC 311, e-commerce conversion) and a **HIPAA-aware clinical data platform** (FHIR/HL7); building real-time lakehouses with Flink + Iceberg + dbt.
 - 🔍 **Target Roles:** AI Engineer · Data Engineer · ML Engineer *(US-based, Summer 2026+)*
 - 💡 **Passion:** Real-time data systems, agentic AI orchestration, production observability, sub-millisecond latency
 - 📧 **Let's Talk:** [koutilya718@gmail.com](mailto:koutilya718@gmail.com) · [LinkedIn](https://www.linkedin.com/in/koutilyayenumula) · [Resume](https://github.com/koutilyaY/resume)
@@ -112,7 +112,30 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>2️⃣ &nbsp;FinSight AI</b> — Multi-Agent Financial Intelligence &nbsp;·&nbsp; <code>LangGraph · Kafka · Spark</code></summary>
+<summary><b>2️⃣ &nbsp;ReadmitGuard</b> — 30-Day Readmission Prevention (Healthcare) &nbsp;·&nbsp; <code>FHIR/HL7 · HIPAA · Iceberg</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/readmitguard](https://github.com/koutilyaY/readmitguard)**
+
+**Problem:** Medicare penalizes hospitals up to 3% of reimbursement for excess 30-day readmissions (HRRP) — but the signal is buried in siloed, standards-heavy clinical data.
+**Solution:** A real-time clinical platform that ingests **HL7 v2 ADT + FHIR R4**, lands it in a **HIPAA-aware medallion lakehouse** (Safe Harbor de-identification), and scores readmission risk at discharge — returning a FHIR **RiskAssessment**.
+
+| Aspect | Detail |
+|--------|--------|
+| **Standards** | FHIR R4 · HL7 v2 ADT · ICD-10 / LOINC / RxNorm |
+| **Clinical methods** | LACE index · Charlson comorbidity · CMS-HRRP cohorts |
+| **Compliance** | HIPAA Safe Harbor de-id · MRN tokenization · audit log |
+| **Stack** | Kafka → Spark → Iceberg → dbt → Dagster · XGBoost · FastAPI |
+
+`FHIR` · `HL7` · `Kafka` · `Spark` · `Iceberg` · `dbt` · `Dagster` · `XGBoost` · `FastAPI`
+
+</details>
+
+---
+
+<details>
+<summary><b>3️⃣ &nbsp;FinSight AI</b> — Multi-Agent Financial Intelligence &nbsp;·&nbsp; <code>LangGraph · Kafka · Spark</code></summary>
 
 <br/>
 
@@ -135,7 +158,7 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>3️⃣ &nbsp;PayGuard</b> — Real-Time Fraud Detection &nbsp;·&nbsp; <code>Kafka · Spark · LightGBM</code></summary>
+<summary><b>4️⃣ &nbsp;PayGuard</b> — Real-Time Fraud Detection &nbsp;·&nbsp; <code>Kafka · Spark · LightGBM</code></summary>
 
 <br/>
 
@@ -159,7 +182,7 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>4️⃣ &nbsp;DataShield</b> — Real-Time Data Observability &nbsp;·&nbsp; <code>FastAPI · Anomaly ML · Lineage</code></summary>
+<summary><b>5️⃣ &nbsp;DataShield</b> — Real-Time Data Observability &nbsp;·&nbsp; <code>FastAPI · Anomaly ML · Lineage</code></summary>
 
 <br/>
 
@@ -181,7 +204,7 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>5️⃣ &nbsp;DocuSense</b> — Contract Intelligence Agent &nbsp;·&nbsp; <code>Local-first RAG · Ollama · FAISS</code></summary>
+<summary><b>6️⃣ &nbsp;DocuSense</b> — Contract Intelligence Agent &nbsp;·&nbsp; <code>Local-first RAG · Ollama · FAISS</code></summary>
 
 <br/>
 
@@ -197,7 +220,7 @@ class KoutilyaYenumula:
 ---
 
 <details>
-<summary><b>6️⃣ &nbsp;CreatorPulse</b> — Creator-Economy Burnout Prediction &nbsp;·&nbsp; <code>Causal Inference · Survival Analysis</code></summary>
+<summary><b>7️⃣ &nbsp;CreatorPulse</b> — Creator-Economy Burnout Prediction &nbsp;·&nbsp; <code>Causal Inference · Survival Analysis</code></summary>
 
 <br/>
 
@@ -210,9 +233,41 @@ class KoutilyaYenumula:
 
 </details>
 
+---
+
+## 🔬 Real-Data Analysis
+
+> Public, real-world datasets — the messy-data rigor and honest reporting behind the platforms above.
+
+<details>
+<summary><b>📊 &nbsp;NYC 311 Response-Time Analysis</b> — 3.46M real requests &nbsp;·&nbsp; <code>DuckDB · dbt · SQL</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/nyc-311-analysis](https://github.com/koutilyaY/nyc-311-analysis)**
+
+Every NYC 311 request filed in 2024 (**3.46M rows**, live NYC Open Data) analyzed for how fast the city actually responds. Shows the citywide "average" is a statistical trap — NYPD's ~1-hour closes hide housing's 4-day and taxi's 74-day tails — normalizes complaints per capita, and *measures* the heat-vs-temperature effect (r = −0.80) instead of asserting it. dbt medallion, data contracts, tests, and a right-censoring fix that changed the headline numbers.
+
+`DuckDB` · `dbt` · `SQL` · `Dagster` · `Streamlit` · multi-source join · right-censoring
+
+</details>
+
+<details>
+<summary><b>🧪 &nbsp;E-Commerce Conversion — is the model worth shipping?</b> &nbsp;·&nbsp; <code>XGBoost · SHAP · MLflow</code></summary>
+
+<br/>
+
+🔗 **[github.com/koutilyaY/online-shopper-conversion](https://github.com/koutilyaY/online-shopper-conversion)**
+
+Real UCI session data (12,330 sessions) predicting purchase intent — validated **forward in time**, not with a flattering random split. Catches a near-leakage feature, benchmarks the model against a one-line business rule, and honestly recommends *against* shipping when the rule wins. Pandera contracts, MLflow tracking, FastAPI serving, model card.
+
+`XGBoost` · `SHAP` · `MLflow` · `FastAPI` · `pandera` · temporal validation · PR-AUC
+
+</details>
+
 <div align="center">
 
-**More:** [Churn — $1.6M impact](https://github.com/koutilyaY/churn-prediction) · [Enterprise Data Platform](https://github.com/koutilyaY/enterprise-data-platform) · [Commerce Analytics on AWS](https://github.com/koutilyaY/commerce-analytics-aws) · [E-commerce Data Platform](https://github.com/koutilyaY/ecommerce-data-engineering-platform) · [Credit-Card Segmentation](https://github.com/koutilyaY/credit-card-customer-segmentation)
+**More:** [Churn Prediction](https://github.com/koutilyaY/churn-prediction) · [E-commerce Data Platform](https://github.com/koutilyaY/ecommerce-data-engineering-platform) · [Supply-Chain Analytics](https://github.com/koutilyaY/supply-chain-analytics)
 
 </div>
 
